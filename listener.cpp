@@ -45,8 +45,8 @@ void send_mail(string Receipent, string text){
 		mail.SetSecurityType(USE_SSL);
 #endif
 
-		mail.SetLogin("GedyHD@gmail.com");
-		mail.SetPassword("Voda-123");
+		mail.SetLogin("YOUR_LOGIN");
+		mail.SetPassword("YOUR_PASSWORD");
 		mail.SetSenderName("Gedy");
 		mail.SetSenderMail("user@domain.com");
 		mail.SetReplyTo("user@domain.com");
